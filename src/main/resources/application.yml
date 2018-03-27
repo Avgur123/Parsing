@@ -1,0 +1,10 @@
+datasource:
+  infoserver:
+    url: jdbc:sqlserver://mosexchange1.prime.local:1433;DatabaseName=Info
+    username: inter-server
+    password: 19876
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDataSource
+    defaultSchema:
+    maxPoolSize: 20
+
+
